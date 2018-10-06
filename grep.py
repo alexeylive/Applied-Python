@@ -30,6 +30,7 @@ def add_dict(dict, params, list, num):
             dict[num + 1] = list[num]
 
 
+
 def grep(lines, params):
     params.pattern = re.sub("[*]", ".*", params.pattern)
     params.pattern = re.sub("[?]", ".", params.pattern)
