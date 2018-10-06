@@ -189,13 +189,8 @@ def parse_args(args):
 
 
 def main():
-    #   params = parse_args(sys.argv[1:])
-    #  grep(sys.stdin.readlines(), params)
-    lines = ['vr', 'baab', 'abbb', 'fc', 'bbb', 'cc']
-    paramse = parse_args(['-C1', '-n', 'bbb'])
-    grep(lines, paramse)
-    print(lines)
-
+    params = parse_args(sys.argv[1:])
+    grep(sys.stdin.readlines(), params)
 
 if __name__ == '__main__':
     main()
