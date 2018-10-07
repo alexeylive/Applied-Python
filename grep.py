@@ -1,7 +1,6 @@
 import argparse
 import sys
 import re
-import numpy as np
 
 
 def output(line):
@@ -194,4 +193,4 @@ def main():
     grep(sys.stdin.readlines(), params)
 
 if __name__ == '__main__':
-    main()
+main()
