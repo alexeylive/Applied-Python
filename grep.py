@@ -193,4 +193,4 @@ def main():
     grep(sys.stdin.readlines(), params)
 
 if __name__ == '__main__':
-main()
+    main()
